@@ -28,7 +28,7 @@ const RecentEventsMain = () => {
 
 
   return (
-    <div className="w-full overflow-hidden">
+    <div className="md:sm:w-full md:sm:overflow-hidden">
       <div ref={recentEventCard} className="flex flex-row">
         {prevEventData.map((event, index) => (
           <div

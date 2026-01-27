@@ -4,7 +4,7 @@ const FouthHero = () => {
   return (
     <div>
       <div className="flex justify-center items-center">
-          <h1 className="text-white font-bold text-5xl my-10">Events</h1>
+          <h1 className="text-white font-bold text-5xl my-5">Events</h1>
         </div>
         
     </div>

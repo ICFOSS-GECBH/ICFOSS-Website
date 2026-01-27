@@ -23,9 +23,14 @@ import Navbar from "../../components/Navbar";
 const Scrollable = () => {
   return (
     <div>
-      <div className="overflow-hidden w-screen h-fit">
+      <div className="overflow-hidden w-screen h-fit flex flex-col lg:gap-6 "
+      style={{
+            backgroundImage: "url('/Background.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}>
         <div
-        id="home"
+          id="home"
           className="w-screen h-screen"
           style={{
             background: "linear-gradient(to bottom, #1e3a5f, #0f2847)", // EDIT: Card gradient
@@ -34,7 +39,7 @@ const Scrollable = () => {
           <SecondPage />
         </div>
         <div
-        id="about"
+          id="about"
           className="bg-black h-screen w-screen "
           style={{
             backgroundImage: "url('/Background.png')",
@@ -47,7 +52,7 @@ const Scrollable = () => {
 
         <div
           id="events"
-          className="bg-black w-screen h-fit "
+          className="bg-black w-screen h-fit min-h-screen "
           style={{
             backgroundImage: "url('/Background.png')",
             backgroundSize: "cover",
@@ -59,7 +64,7 @@ const Scrollable = () => {
 
         <div
           id="projects"
-          className="flex flex-col  bg-black h-fit w-screen"
+          className="flex flex-col  bg-black h-fit w-screen "
           style={{
             backgroundImage: "url('/Background.png')",
             backgroundSize: "cover",
@@ -70,7 +75,7 @@ const Scrollable = () => {
         </div>
 
         <div
-        id="team"
+          id="team"
           className="bg-black w-screen h-screen"
           style={{
             backgroundImage: "url('/Background.png')",

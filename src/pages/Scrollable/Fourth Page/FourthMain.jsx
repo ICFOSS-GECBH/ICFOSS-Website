@@ -9,6 +9,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { div } from "motion/react-client";
+import prevEventData from "../../../Data/PreviousEvent.json";
 gsap.registerPlugin(ScrollTrigger);
 
 const FourthMain = () => {
@@ -22,6 +23,7 @@ const FourthMain = () => {
 
   useGSAP(() => {
     var mm = gsap.matchMedia();
+    if (!eventData || eventData.length  === 0 || !fourthMain.current) return;
 
     mm.add("(max-width: 768px)", () => {
       var tl3 = gsap.timeline({
@@ -47,7 +49,7 @@ const FourthMain = () => {
           trigger: fourthRefCard.current,
           scroller: "body",
           start: "top 50%",
-          end: "bottom 50%",
+          end: "bottom 80%",
           scrub: 2,
         },
       });
@@ -80,41 +82,53 @@ const FourthMain = () => {
   });
 
   return (
-    <div ref={fourthMain} className="h-fit">
-      <div ref={fourthHeroRef}>
-        <FouthHero />
-      </div>
-      <div className="lg:flex lg:flex-col flex flex-col overflow-x-scroll lg:overflow-hidden justify-start items-center no-scrollbar">
-        <div>
-          <h4 className="text-white font-semibold mx-12">Upcoming Events</h4>
+    <div className=" ">
+      <div ref={fourthMain} className="h-fit ">
+        <div ref={fourthHeroRef}>
+          <FouthHero />
         </div>
-        <div
-          ref={fourthRefCard}
-          className="flex flex-row items-center justify-evenly lg:overflow-hidden lg:snap-none lg:px-0 md:overflow-x-auto md:snap-x md:snap-mandatory no-scrollbar w-full px-[15%] lg:w-fit"
-        >
-          {eventData.map((event, index) => (
-            <div key={index} className="md:snap-center md:shrink-0">
-              <FourthCard event={event} />
+        <div className="lg:flex lg:flex-col flex flex-col overflow-x-scroll lg:overflow-hidden justify-start items-center no-scrollbar">
+          <div>
+            <h4 className="text-white font-semibold mx-12 my-3">
+              Upcoming Events
+            </h4>
+          </div>
+          {eventData && eventData.length > 0 ? (
+            <div
+              ref={fourthRefCard}
+              className="flex flex-row items-center justify-evenly lg:overflow-hidden lg:snap-none lg:px-0 md:overflow-x-auto md:snap-x md:snap-mandatory no-scrollbar w-full px-[15%] lg:w-fit"
+            >
+              {eventData.map((event, index) => (
+                <div key={index} className="md:snap-center md:shrink-0">
+                  <FourthCard event={event} />
+                </div>
+              ))}
             </div>
-          ))}
+          ) : (
+            <div className="flex justify-center p-10">
+              <h3 className="text-white text-xl font-semibold">
+                Events Coming Soon
+              </h3>
+            </div>
+          )}
         </div>
       </div>
-      <div ref={fourthRefRecentHero}>
-        <RecentEventHero />
-      </div>
 
-      <div ref={fourthRefRecentCard}>
-        <RecentEventsMain timeline={mobiletl} />
-      </div>
 
-      <div className=" flex w-full justify-center">
-        <button
-          ref={fourthRefButton}
-          className="text-white border-[#114BCC] border-2 py-2 px-15 rounded-lg text-[10px] my-20 active:scale-95"
-        >
-          View All Events
-        </button>
+      {prevEventData && prevEventData.length > 0 ? (
+              <div className="min-h-screen">
+        <div ref={fourthRefRecentHero}>
+          <RecentEventHero />
+        </div>
+
+        <div ref={fourthRefRecentCard}>
+          <RecentEventsMain timeline={mobiletl} />
+        </div>
+
       </div>
+      ):(
+        <div></div>
+      )}
     </div>
   );
 };
