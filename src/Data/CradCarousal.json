@@ -1,32 +1,112 @@
 [
     {
-        "occupation":"lead",
-        "name":"lorem",
-        "image":"https://imgs.search.brave.com/rrrt44qyEuxgmx0lHhmXnaGA82iz87dshQ_-Scq7bg8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvY3V0ZS1iYWJ5/LWRvbGwtc2l0dGlu/Zy1waW5rLWNhcC0z/ZF85MTIyMTQtMTM3/NTkyLmpwZz9zZW10/PWFpc19oeWJyaWQm/dz03NDA"
+        "occupation":"Chairperson",
+        "name":"Shiyas S",
+        "image":"Execom/Shiyas S.jpg"
     },
     {
-        "occupation":"lead",
-        "name":"lorem",
-        "image":"https://imgs.search.brave.com/FAWBm2eLRDiIFWNu4IBDqISRS5t3ExcynFIM9YZwB6A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9iYWJ5LWRvbGwt/dG95LXJlcHJlc2Vu/dGF0aW9uXzUzODc2/LTQxNDc4MS5qcGc_/c2VtdD1haXNfaHli/cmlkJnc9NzQw"
+        "occupation":"Vice Chairperson",
+        "name":"Adarsh S Suresh",
+        "image":"Execom/adarsh s suresh.jpg"
     },
     {
-        "occupation":"lead",
-        "name":"lorem",
-        "image":"https://imgs.search.brave.com/YF8eciSm_gYBZUQ97NtNHcQkem13IGD2OXRJO7yEk_8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by8zZC1naXJsLWN1/dGUtY2FydG9vbi1j/aGFyYWN0ZXItYWkt/Z2VuZXJhdGVkXzE0/MTE3LTEyNzE1My5q/cGc_c2VtdD1haXNf/aHlicmlkJnc9NzQw"
+        "occupation":"Secretary",
+        "name":"Gautham J K",
+        "image":"/Execom/Gautham_J_K.jpeg"
     },
     {
-        "occupation":"lead",
-        "name":"lorem",
-        "image":"https://imgs.search.brave.com/tG2gpsC6n3QsHTPh8Qd61CCleL8jxYwbi_QheG8TSag/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzkyLzI3/LzA5LzkyMjcwOTc3/Mjk0NzY0ZWNlZWEz/ZmUzZjBmYzA1MzNm/LmpwZw"
+        "occupation":"Finance Manager",
+        "name":"Neha Ajith",
+        "image":"Execom/Neha Ajith.jpg"
     },
     {
-        "occupation":"lead",
-        "name":"lorem",
-        "image":"https://imgs.search.brave.com/DNsxfxbA0CJ8a-5XP_fjI0aPC26CM6NBpL_me16s1PU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvM2QtaWxsdXN0/cmF0aW9uLWN1dGUt/Z2lybC1wdXJwbGUt/a25pdHRlZC1kb2xs/LWlsbHVzdHJhdGlv/bl85MTIyMTQtMTM4/MTY1LmpwZz9zZW10/PWFpc19oeWJyaWQm/dz03NDAmcT04MA"
+        "occupation":"Development Lead",
+        "name":"MUHAMMED AFSAL NS",
+        "image":"Execom/MUHAMMED AFSAL NS_.jpg"
     },
     {
-        "occupation":"lead",
-        "name":"lorem",
-        "image":"https://imgs.search.brave.com/Lz1jPiTy94tbGeUoMEzCXi5_cW9QLOqCiMK3fXdRWFU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvY2FydG9vbi1j/dXRlLWJhYnktZ2ly/bC1waW5rLWRyZXNz/LWhhdC0zZC1pbGx1/c3RyYXRpb24tY2Fy/dG9vbi1jdXRlLWJh/YnktZ2lybC1waW5r/LWRfOTEyMjE0LTEw/MDQwMC5qcGc_c2Vt/dD1haXNfaHlicmlk/Jnc9NzQwJnE9ODA"
+        "occupation":"Information Compliance Lead",
+        "name":"Akshay Shaji",
+        "image":"Execom/Akshay Shaji.jpg"
+    },
+    {
+        "occupation":"Program Officer",
+        "name":"Navami Rajeev",
+        "image":"Execom/Navami Rajeev.jpeg"
+    },
+    {
+        "occupation":"Tech Lead",
+        "name":"Krishnan A K",
+        "image":"Execom/Krishnan A K.jpg"
+    },
+    {
+        "occupation":"Jnr Tech Lead",
+        "name":"Hadiya Salma R",
+        "image":"Execom/"
+    },
+    {
+        "occupation":"Jnr Tech Lead",
+        "name":"Sabin SB",
+        "image":"Execom/Sabin S B.jpg"
+    },
+    {
+        "occupation":"Jnr Tech Lead",
+        "name":"Abdulla A",
+        "image":"Execom/Abdulla A.jpg"
+    },
+    {
+        "occupation":"Media Team Head",
+        "name":"Ponnuru Sharon",
+        "image":"Execom/"
+    },
+    {
+        "occupation":"Designer",
+        "name":"Ajay Krishna",
+        "image":"Execom/Ajay Krishna.jpg"
+    },
+    {
+        "occupation":"Designer",
+        "name":"Muhammed Yasir.S",
+        "image":"Execom/mohammed yasir.jpg"
+    },
+    {
+        "occupation":"Designer",
+        "name":"Sharon Shaji",
+        "image":"Execom/Sharon Shaji_.jpg"
+    },
+    {
+        "occupation":"Content",
+        "name":"Nandan A S",
+        "image":"Execom/Nandan A S.jpg"
+    },
+    {
+        "occupation":"Content",
+        "name":"Aparna B S",
+        "image":"Execom/Aparna B S.jpg"
+    },
+    {
+        "occupation":"PR Team Head",
+        "name":"Meenakshi S M",
+        "image":"Execom/Meenakshi S M.jpg"
+    },
+    {
+        "occupation":"PR Team Associate",
+        "name":"Jyothika Harikumar",
+        "image":"Execom/Jyothika Harikumar.jpg"
+    },
+    {
+        "occupation":"PR Team Associate",
+        "name":"Ardra N J",
+        "image":"Execom/Ardra N J.jpg"
+    },
+    {
+        "occupation":"PR Team Associate",
+        "name":"Nimish Rajagopal",
+        "image":"Execom/Nimish.png"
+    },
+    {
+        "occupation":"PR Team Associate",
+        "name":"Abhirami V S",
+        "image":"Execom/Abhirami V S.jpg"
     }
 ]
