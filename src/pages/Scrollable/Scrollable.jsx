@@ -1,46 +1,34 @@
 import React from "react";
-import SecondHero from "./Second Page/SecondHero";
-import ThirdMain from "./Third Page/ThirdMain";
 import SecondPage from "./Second Page/SecondPage";
-import {
-  Calendar,
-  Clock,
-  Github,
-  Instagram,
-  Linkedin,
-  MapPin,
-  Twitter,
-} from "lucide-react";
+import ThirdMain from "./Third Page/ThirdMain";
 import FourthMain from "./Fourth Page/FourthMain";
 import FifthPageMain from "./Fifth page/FifthPageMain";
-import FifthPageCard from "./Fifth page/FifthPageCard";
-import FifthPageButton from "./Fifth page/FifthPageButton";
 import SixthPageMain from "./Sixth Page/SixthPageMain";
 import LastPageMain from "./Last Page/LastPageMain";
-import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 
 const Scrollable = () => {
   return (
-    <div>
-      <div className="overflow-hidden w-screen h-fit flex flex-col lg:gap-6 "
-      style={{
-            backgroundImage: "url('/Background.png')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}>
-        <div
+    <>
+
+      {/* Main page wrapper */}
+      <div className="overflow-x-hidden w-screen min-h-screen flex flex-col bg-black">
+        
+        {/* HOME */}
+        <section
           id="home"
-          className="w-screen h-screen"
+          className="relative w-screen min-h-screen"
           style={{
-            background: "linear-gradient(to bottom, #1e3a5f, #0f2847)", // EDIT: Card gradient
+            background: "linear-gradient(to bottom, #1e3a5f, #0f2847)",
           }}
         >
           <SecondPage />
-        </div>
-        <div
+        </section>
+
+        {/* ABOUT */}
+        <section
           id="about"
-          className="bg-black h-screen w-screen "
+          className="relative w-screen min-h-screen"
           style={{
             backgroundImage: "url('/Background.png')",
             backgroundSize: "cover",
@@ -48,11 +36,12 @@ const Scrollable = () => {
           }}
         >
           <ThirdMain />
-        </div>
+        </section>
 
-        <div
+        {/* EVENTS */}
+        <section
           id="events"
-          className="bg-black w-screen h-fit min-h-screen "
+          className="relative w-screen min-h-screen pb-24"
           style={{
             backgroundImage: "url('/Background.png')",
             backgroundSize: "cover",
@@ -60,11 +49,12 @@ const Scrollable = () => {
           }}
         >
           <FourthMain />
-        </div>
+        </section>
 
-        <div
+        {/* PROJECTS */}
+        <section
           id="projects"
-          className="flex flex-col  bg-black h-fit w-screen "
+          className="relative w-screen min-h-screen pb-24"
           style={{
             backgroundImage: "url('/Background.png')",
             backgroundSize: "cover",
@@ -72,11 +62,12 @@ const Scrollable = () => {
           }}
         >
           <FifthPageMain />
-        </div>
+        </section>
 
-        <div
+        {/* TEAM */}
+        <section
           id="team"
-          className="bg-black w-screen h-screen"
+          className="relative w-screen min-h-screen"
           style={{
             backgroundImage: "url('/Background.png')",
             backgroundSize: "cover",
@@ -84,10 +75,11 @@ const Scrollable = () => {
           }}
         >
           <SixthPageMain />
-        </div>
+        </section>
 
-        <div
-          className="bg-black w-screen h-fit "
+        {/* FOOTER / LAST PAGE */}
+        <section
+          className="relative w-screen min-h-fit"
           style={{
             backgroundImage: "url('/Background.png')",
             backgroundSize: "cover",
@@ -95,9 +87,10 @@ const Scrollable = () => {
           }}
         >
           <LastPageMain />
-        </div>
+        </section>
+
       </div>
-    </div>
+    </>
   );
 };
 

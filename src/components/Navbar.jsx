@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { Github, Instagram, Linkedin, Menu, Twitter, X } from "lucide-react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import MobileMenu from "./mobileMenu";
 
 const Navbar = () => {
   const tl = gsap.timeline();
@@ -67,7 +68,7 @@ const Navbar = () => {
       </div>
       <div
         ref={navMobRef}
-        className="h-screen w-[70%] bg-white-200 z-10 translate-x-full fixed right-0 backdrop-blur-2xl"
+        className="h-screen w-[70%] bg-[#1e293b] text-amber-50 z-10 translate-x-full fixed right-0"
       >
         <div className="text-2xl p-3 flex flex-row justify-between">
           <h4>Menu</h4>
@@ -80,14 +81,7 @@ const Navbar = () => {
             <X color="#ffffff" />
           </div>
         </div>
-        <div className="h-screen grid grid-rows-6 text-white font-semibold text-3xl divide-dashed ">
-          <h4>Home</h4>
-          <h4>About</h4>
-          <h4>Events</h4>
-          <h4>Project</h4>
-          <h4>Team</h4>
-          <h4>Join</h4>
-        </div>
+          <MobileMenu/>
       </div>
       <div className="lg:flex lg:items-center lg:justify-between lg:px-40 lg:py-4 flex items-center justify-between">
         <h2 className="text-white font-bold lg:text-2xl px-3 py-5">
