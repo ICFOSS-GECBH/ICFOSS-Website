@@ -1,30 +1,44 @@
-[
-    {   
-        "img":"https://imgs.search.brave.com/XT0vNZmNMnZ0vFIBn01QbTNi-XRytsjf4AG2H_4PQ2I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvZGV0ZWN0aXZl/LXBpa2FjaHUtcGlj/dHVyZXMtOXozeXAz/YWt1YTJkbm1laC5q/cGc",
-        "top":"Expo",
-        "Heading":"FOSS Expo 2026",
-        "Date":"September 29, 2026",
-        "Attended":"60 attended"  
+[    {   
+        "img":"../PrevEvents/bugitwinner.jpeg",
+        "top":"debugging challenge",
+        "Heading":"BUG IT",
+        "Date":"16/02/2026",
+        "Details":"From tracking down hidden bugs to untangling messy code, our participants proved their debugging mettle! Huge congratulations to our winner, Akash S (S4 EEE), for flawlessly clearing every round with speed and accuracy."  
     },
     {   
-        "img":"https://imgs.search.brave.com/s_3HZmwTUX2XkuU4XlijykCR9xWCWwbXLt6mW7BDnHI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjMv/MTQxLzYxOS9zbWFs/bC9pbGx1c3RyYXRp/b24tb2YtYS1rb3Jl/YW4tYW5pbWUtc2No/b29sZ2lybC1pbi11/bmlmb3JtLXdpdGgt/YnJvd24tZXllcy1h/bmQtYmxhY2staGFp/cnMtbG9va3MtZm9y/d2FyZC1ncmV5LWJh/Y2tncm91bmQtYWkt/Z2VuZXJhdGVkLXBo/b3RvLmpwZw",
-        "top":"Expo",
-        "Heading":"FOSS Expo 2026",
-        "Date":"September 29, 2026",
-        "Attended":"30 attended"  
+        "img":"../PrevEvents/bugit.jpeg",
+        "top":"debugging challenge",
+        "Heading":"BUG IT",
+        "Date":"16/02/2026",
+        "Details":"An online debugging showdown where participants raced to find and fix complex code errors. The event challenged students' logical thinking and code analysis skills, rewarding those with the sharpest eyes and the fastest solutions."  
     },
     {   
-        "img":"https://imgs.search.brave.com/R66Q8IosS-NMmOH_JiKWsudurnjNZ8ZCG6LzmjnpKNk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/YnV6emZlZWQuY29t/L2J1enpmZWVkLXN0/YXRpYy9zdGF0aWMv/MjAyNC0wNS8zMS8y/MS9hc3NldC8yMmNm/OWYxN2FlY2Qvc3Vi/LWJ1enotMjYxNC0x/NzE3MTkxMjc5LTMu/anBn",
-        "top":"Expo",
-        "Heading":"FOSS Expo 2026",
-        "Date":"September 29, 2026",
-        "Attended":"40 attended"  
+        "img":"../PrevEvents/gitflow.jpeg",
+        "top":"learning series",
+        "Heading":"Gitflow3.0",
+        "Date":"21/02/2026",
+        "Details":"session designed to  master the power of Git and GitHub. This hands-on session covered  basic Git commands for version control, collaboration, and project management, led by Ms Merin Rose Tom, Senior Software Engineer at Oracle."  
+    },
+        {   
+        "img":"../PrevEvents/pythonProgramming.jpeg",
+        "top":"learning series",
+        "Heading":"Algorithms With Python",
+        "Date":"18/12/2025",
+        "Details":"This introductory series was successfully conducted to provide students with a strong foundation in Python and algorithmic logic."  
+},
+    {   
+        "img":"../PrevEvents/triviaWinner.jpeg",
+        "top":"quiz",
+        "Heading":"Trivia Night",
+        "Date":"15/10/25 & 16/10/25",
+        "Details":"a competitive trivia challenge exploring the principles, history, and impact of the FOSS movement. After a spirited competition, we are proud to announce our winner :Bharat Raj (S3 EC)"  
     },
     {   
-        "img":"https://imgs.search.brave.com/HtDzzlgwga2NhfcehtFAl1Y7zTUxMqccZsKhULFgSjA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9h/bmltZS1tb29uLWxh/bmRzY2FwZV8yMy0y/MTUxNjQ1OTI3Lmpw/Zz9zZW10PWFpc19o/eWJyaWQmdz03NDAm/cT04MA",
-        "top":"Expo",
-        "Heading":"FOSS Expo 2026",
-        "Date":"September 29, 2026",
-        "Attended":"10 attended"  
+        "img":"../PrevEvents/TriviaNight.jpeg",
+        "top":"quiz",
+        "Heading":"Trivia Night",
+        "Date":"15/10/25 & 16/10/25",
+        "Details":"an interactive quiz to explore the world of Free and Open Source Software. Participants competed to test their knowledge of FOSS history, principles, and the technologies that power today’s tech careers"  
     }
+
 ]

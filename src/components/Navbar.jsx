@@ -124,10 +124,9 @@ const Navbar = () => {
           ref={logoRef}
           className="text-white lg:flex lg:items-center lg:justify-between lg:gap-4 hidden"
         >
-          <Twitter />
-          <Linkedin />
-          <Github />
-          <Instagram />
+          <a target='_blank' href="https://www.linkedin.com/in/foss-cell-gecb-a767a8211"><img className='invert size-6' src="../icons/linkedin.svg" alt="" /></a>
+                <a href=""><img className='invert size-6' src="../icons/github.svg" alt="" /></a>
+                <a target='_blank' href="https://www.instagram.com/fosscellgecb?igsh=NGN3cmJ3ODUyMTM3"><img className='invert size-6' src="../icons/instagram.svg" alt="" /></a>
         </div>
       </div>
     </div>

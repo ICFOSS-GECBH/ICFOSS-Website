@@ -101,10 +101,10 @@ const FifthPageMain = () => {
                 </div>
               ))}
             </div>
-            <FifthPageButton />
+            {/* <FifthPageButton /> */}
           </>
         ) : (
-          <div className="flex justify-center p-10">
+          <div className="flex justify-center p-10 h-fit">
             <h3 className="text-white text-xl font-semibold">Projects Coming Soon</h3>
           </div>
         )}

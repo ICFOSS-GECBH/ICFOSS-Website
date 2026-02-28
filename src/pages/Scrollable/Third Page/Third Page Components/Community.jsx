@@ -14,11 +14,9 @@ const Community = () => {
               src="/users.svg" alt="" />
             </div>
             <div className='p-4 text-center'>
-              <h3 className='my-2 font-bold lg:text-[20px]  text-[10px] '>Community Driven</h3>
+              <h3 className='my-2 font-bold lg:text-[20px]  text-[10px] '>Community Driven Learning</h3>
               <p className='lg:text-[10px] text-[7px]'>
-                Our community is at the heart 
-                of everything we do, fostering 
-                knowledge sharing. 
+Our community is at the heart of everything we do, fostering mentorship, cooperation, collective growth, and open participation for all.
               </p>
             </div>
           </div>

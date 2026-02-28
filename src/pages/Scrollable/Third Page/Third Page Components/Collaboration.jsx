@@ -15,11 +15,9 @@ const Collaboration = () => {
               src="/globe.svg" alt="" />
             </div>
             <div className='p-4 text-center'>
-              <h3 className='my-2 font-bold lg:text-[20px] text-sm text-[10px] '>Collaboration</h3>
+              <h3 className='my-2 font-bold lg:text-[20px] text-sm text-[10px] '>Global & Industry Engagement</h3>
               <p className='lg:text-[10px] text-[7px]'>
-                We thrive on teamwork, sharing ideas, and
-                growing together by contributing 
-                to open-source projects.
+                We actively collaborate with ICFOSS, global open source communities, research bodies, and industry partners to drive ethical and meaningful impact.
               </p>
             </div>
           </div>

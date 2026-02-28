@@ -54,7 +54,7 @@ const Scrollable = () => {
         {/* PROJECTS */}
         <section
           id="projects"
-          className="relative w-screen min-h-screen pb-24"
+          className="relative w-screen h-auto min-h-0 pb-12"
           style={{
             backgroundImage: "url('/Background.png')",
             backgroundSize: "cover",

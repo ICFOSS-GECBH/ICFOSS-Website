@@ -14,12 +14,9 @@ const PassionForFoss = () => {
               src="/heart.svg" alt="" />
             </div>
             <div className='lg:p-4 p-3 text-center'>
-              <h3 className='my-2 lg:font-bold lg:text-[20px] text-sm text-[10px] font-extrabold'>Passion for FOSS</h3>
+              <h3 className='my-2 lg:font-bold lg:text-[20px] text-sm text-[10px] font-extrabold'>Inclusivity & Accessibility</h3>
               <p className='lg:text-[10px] text-[7px] whitespace-normal font-normal'>
-                Dedicated to spreading
-                awareness and adoption of 
-                Free and Open Source 
-                Software 
+                We ensure equal opportunities for students from all departments and backgrounds to learn, innovate, and benefit from FOSS without barriers.
               </p>
             </div>
           </div>

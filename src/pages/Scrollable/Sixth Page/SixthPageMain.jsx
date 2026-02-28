@@ -46,9 +46,9 @@ const SixthPageMain = () => {
       </div>
 
       <div className="w-full flex justify-center">
-        <button className="border-[#1351DC] rounded-lg border-2 w-fit active:scale-95 text-white text-[10px] py-2 px-10">
+        {/* <button className="border-[#1351DC] rounded-lg border-2 w-fit active:scale-95 text-white text-[10px] py-2 px-10">
           View All
-        </button>
+        </button> */}
       </div>
     </div>
   );

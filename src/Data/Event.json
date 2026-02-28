@@ -1,40 +1,4 @@
 [
-    {
-        "top":"Expo",
-        "image":"https://imgs.search.brave.com/tnzsdHht2Ju47tPYXuLtmVnkuoxwIkpSHhAyqEBc2-Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAyMy8w/NS8xMi8xMC80Ny9h/aS1nZW5lcmF0ZWQt/Nzk4ODI2Ml82NDAu/anBn",
-        "Heading":"Foss Expo",
-        "para":"It is a long established fact that a reader will be distracted the readable content of a page when looking at .",
-        "Date":"September 29, 2026",
-        "Time":"12:00 PM - 2:00 PM",
-        "Location":"Sargam, GECBH"
 
-    },
-    {
-        "top": "Talk",
-        "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGV2ZWxvcGVyJTIwdGFsa3xlbnwwfHwwfHx8MA%3D%3D",
-        "Heading": "Future of Open Source",
-        "para": "An insightful session by industry experts on the trends and opportunities in the FOSS ecosystem.",
-        "Date": "November 05, 2025",
-        "Time": "4:00 PM - 5:30 PM",
-        "Location": "Auditorium"
-    },
-    {
-        "top": "Hackathon",
-        "image": "https://imgs.search.brave.com/JmJtLkYwNw-VYfHY1lIH0Vmi8LZUCrc33H0gT1W5rxA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2lkZXNob3cuY29t/L2Nkbi1jZ2kvaW1h/Z2UvcXVhbGl0eT05/MCxmPWF1dG8vaHR0/cHM6Ly93d3cuc2lk/ZXNob3cuY29tL3N0/b3JhZ2UvcHJvZHVj/dC1pbWFnZXMvNDAw/MzkyL3NpZGVzaG93/LWNvbGxlY3RpYmxl/cy1wb2tlbW9uLXBp/a2FjaHUtbGlmZS1z/aXplLWZpZ3VyZS1n/YWxsZXJ5LTY4NzE5/MmNjNjg5ZGQuanBn",
-        "Heading": "24-Hour Code Blitz",
-        "para": "A high-intensity, sleepless coding challenge to solve real-world problems using free software.",
-        "Date": "December 10, 2025",
-        "Time": "9:00 AM onwards",
-        "Location": "Computer Lab 1 & 2"
-    },
-    {
-        "top": "Hackathon",
-        "image": "https://imgs.search.brave.com/JmJtLkYwNw-VYfHY1lIH0Vmi8LZUCrc33H0gT1W5rxA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2lkZXNob3cuY29t/L2Nkbi1jZ2kvaW1h/Z2UvcXVhbGl0eT05/MCxmPWF1dG8vaHR0/cHM6Ly93d3cuc2lk/ZXNob3cuY29tL3N0/b3JhZ2UvcHJvZHVj/dC1pbWFnZXMvNDAw/MzkyL3NpZGVzaG93/LWNvbGxlY3RpYmxl/cy1wb2tlbW9uLXBp/a2FjaHUtbGlmZS1z/aXplLWZpZ3VyZS1n/YWxsZXJ5LTY4NzE5/MmNjNjg5ZGQuanBn",
-        "Heading": "24-Hour Code Blitz",
-        "para": "A high-intensity, sleepless coding challenge to solve real-world problems using free software.",
-        "Date": "December 10, 2025",
-        "Time": "9:00 AM onwards",
-        "Location": "Computer Lab 1 & 2"
-    }
 
 ]

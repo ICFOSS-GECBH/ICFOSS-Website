@@ -10,21 +10,33 @@ const RecentEventsMain = () => {
 
   useGSAP(() => {
     var mm = gsap.matchMedia();
-
     const totalCards = prevEventData.length;
-    const scrollDistance = (totalCards - 1) * 100;
 
+    // Mobile: Show 1 card, so we can scroll (total - 1)
     mm.add("(max-width:768px)", () => {
+      const scrollDistance = (totalCards - 1) * 100; 
       gsap.to(recentEventCard.current.children, {
         xPercent: -scrollDistance,
         duration: totalCards * 3,
         ease: "none",
         repeat: -1,
         yoyo: true,
+      });
+    });
+    mm.add("(min-width:769px)", () => {
+      const cardsVisible = 4;
+      const scrollDistance = totalCards > cardsVisible ? (totalCards - cardsVisible) * 100 : 0;
+
+      gsap.to(recentEventCard.current.children, {
+        xPercent: -scrollDistance,
+        duration: totalCards * 2,
+        ease: "none",
+        repeat: -1,
+        yoyo: true,
         repeatDelay: 1,
       });
     });
-  });
+  }, { scope: recentEventCard });
 
 
   return (

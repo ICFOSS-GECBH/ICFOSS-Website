@@ -1,49 +1,47 @@
-import { Calendar, Users } from 'lucide-react'
-import React from 'react'
+import { Calendar } from "lucide-react";
+import React from "react";
 
 const RecentEventsCard = (props) => {
-    const eventData = props.event
+  const eventData = props.event;
 
   return (
-    <div>
-       <div className=" flex flex-row justify-evenly items-center">
-          <div className="mx-5 my-5">
-            <div className="bg-[#1E1E1E] w-70 min-h-[372px] h-fit rounded-3xl overflow-hidden ">
-              <div className="object-cover max-h-[40%] w-full relative overflow-hidden">
-                <div className="absolute top-0 left-0 z-10 p-2">
-                  <p className="bg-[#155DFC] px-3 py-1 rounded-full text-center text-white text-xs font-semibold">
-                   {eventData.top}
-                  </p>
-                </div>
-
-                <img
-                  className="w-full h-full object-cover"
-                  src={eventData.img}
-                  alt="AI generated image"
-                />
-              </div>
-
-              <div className="text-white px-3 flex flex-col gap-y-4">
-                <div className="flex flex-col items-center content-center gap-y-7 ">
-                  <h4 className="py-2 relative top-5">{eventData.Heading}</h4>
-                </div>
-
-                <div className="flex flex-col justify-start gap-y-5 py-3 mx-5 my-2">
-                  <div className="flex flex-row gap-1 content-center items-center ">
-                    <Calendar size={10} />
-                    <p className="text-[10px]">{eventData.Date}</p>
-                  </div>
-                  <div className="flex flex-row gap-1 content-center items-center ">
-                    <Users size={10} />
-                    <p className="text-[10px]">{eventData.Attended}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div className="mx-5 my-5">
+      <div className="bg-[#1E1E1E] w-70 min-h-[620px] rounded-3xl overflow-hidden flex flex-col ">
+        <div className="h-[40%] relative overflow-hidden">
+          <div className="absolute top-0 left-0 z-10 p-2">
+            <p className="bg-[#155DFC] px-3 py-1 rounded-full text-center text-white text-xs font-semibold">
+              {eventData.top}
+            </p>
           </div>
+          <img
+            className="w-full h-full object-cover"
+            src={eventData.img}
+            alt="Event"
+          />
         </div>
-    </div>
-  )
-}
+        <div className="flex-1 flex flex-col justify-center items-center text-white px-6 text-center gap-y-6">
+          
+          {/* Heading */}
+          <h4 className="font-bold text-lg">
+            {eventData.Heading}
+          </h4>
 
-export default RecentEventsCard
+          {/* Date and Details Container */}
+          <div className="flex flex-col items-center gap-y-4">
+            <div className="flex flex-row gap-2 items-center text-gray-300">
+              <Calendar size={14} />
+              <p className="text-[11px]">{eventData.Date}</p>
+            </div>
+            
+            <p className="text-[12px] leading-relaxed">
+              {eventData.Details}
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default RecentEventsCard;

@@ -18,7 +18,7 @@ const LastPageContents = () => {
         scroller:"body",
         scrub:2,
         start:"top 50%",
-        end:"bottom 70%",
+        end:"bottom 100%",
       }
     })
 
@@ -94,7 +94,6 @@ const LastPageContents = () => {
         ref={lastPageDivRef2}
         className="flex justify-center flex-col items-center">
           <button className="text-white bg-[#2563E8] font-semibold text-[12px] rounded-lg px-10 py-2 active:scale-95 my-3 w-fit">Start</button>
-          <h4 className="text-[#0CEBFF] underline underline-offset-3 text-sm ">Contributor Guidelines</h4>
         </div>
     </div>
   )

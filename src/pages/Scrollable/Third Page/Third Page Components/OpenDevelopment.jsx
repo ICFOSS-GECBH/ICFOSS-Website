@@ -11,11 +11,9 @@ const OpenDevelopment = () => {
               src="/code.svg" alt="" />
             </div>
             <div className='p-4 text-center'>
-              <h3 className='my-2 lg:font-bold lg:text-[20px] text-sm text-[10px] font-extrabold '>Open Development</h3>
+              <h3 className='my-2 lg:font-bold lg:text-[20px] text-sm text-[10px] font-extrabold '>Open Knowledge & Collaboration</h3>
               <p className='lg:text-[10px] text-[7px] whitespace-normal font-normal'>
-                We believe in transparent, 
-              collaborative development 
-              that benefits everyone 
+              We champion free and open knowledge through transparent development, teamwork, peer to peer learning, and shared contributions that benefit everyone.
               </p>
             </div>
           </div>
