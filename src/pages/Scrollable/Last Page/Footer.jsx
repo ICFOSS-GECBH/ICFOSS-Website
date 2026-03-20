@@ -2,6 +2,14 @@ import { Github, Instagram,  Linkedin, Twitter } from 'lucide-react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      
+    }
+  }
+
 const Footer = () => {
   return (
     <div> 
