@@ -94,7 +94,7 @@ const LastPageContents = () => {
         ref={lastPageDivRef2}
         className="flex justify-center flex-col items-center">
         <a 
-          href="https://github.com/icfoss-gecbh/ICFOSS-Website" 
+          href="https://github.com/ICFOSS-GECBH" 
           target="_blank" 
           rel="noopener noreferrer"
           className="inline-block text-white bg-[#2563E8] font-semibold text-[12px] rounded-lg px-10 py-2 active:scale-95 my-3 w-fit text-center"
