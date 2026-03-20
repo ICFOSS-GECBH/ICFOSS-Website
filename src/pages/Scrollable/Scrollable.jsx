@@ -30,7 +30,7 @@ const Scrollable = () => {
           id="about"
           className="relative w-screen min-h-screen"
           style={{
-            backgroundImage: "url('/Background.png')",
+            backgroundImage: "url('Background.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
