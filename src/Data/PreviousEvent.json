@@ -17,7 +17,7 @@
         "top":"learning series",
         "Heading":"Gitflow3.0",
         "Date":"21/02/2026",
-        "Details":"session designed to  master the power of Git and GitHub. This hands-on session covered  basic Git commands for version control, collaboration, and project management, led by Ms Merin Rose Tom, Senior Software Engineer at Oracle."  
+        "Details":"Session designed to  master the power of Git and GitHub. This hands-on session covered  basic Git commands for version control, collaboration, and project management, led by Ms Merin Rose Tom, Senior Software Engineer at Oracle."  
     },
         {   
         "img":"PrevEvents/pythonProgramming.jpeg",
@@ -31,14 +31,14 @@
         "top":"quiz",
         "Heading":"Trivia Night",
         "Date":"15/10/25 & 16/10/25",
-        "Details":"a competitive trivia challenge exploring the principles, history, and impact of the FOSS movement. After a spirited competition, we are proud to announce our winner :Bharat Raj (S3 EC)"  
+        "Details":"A competitive trivia challenge exploring the principles, history, and impact of the FOSS movement. After a spirited competition, we are proud to announce our winner :Bharat Raj (S3 EC)"  
     },
     {   
         "img":"PrevEvents/TriviaNight.jpeg",
         "top":"quiz",
         "Heading":"Trivia Night",
         "Date":"15/10/25 & 16/10/25",
-        "Details":"an interactive quiz to explore the world of Free and Open Source Software. Participants competed to test their knowledge of FOSS history, principles, and the technologies that power today’s tech careers"  
+        "Details":"An interactive quiz to explore the world of Free and Open Source Software. Participants competed to test their knowledge of FOSS history, principles, and the technologies that power today’s tech careers"  
     }
 
 ]
