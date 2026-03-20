@@ -117,7 +117,7 @@ const Navbar = () => {
             }}
             className="cursor-pointer"
             >Team</h4>
-            <h4>Join</h4>
+            {/* <h4>Join</h4> */}
           </div>
         </div>
         <div
