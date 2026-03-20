@@ -6,35 +6,35 @@
         "Details":"From tracking down hidden bugs to untangling messy code, our participants proved their debugging mettle! Huge congratulations to our winner, Akash S (S4 EEE), for flawlessly clearing every round with speed and accuracy."  
     },
     {   
-        "img":"../PrevEvents/bugit.jpeg",
+        "img":"PrevEvents/bugit.jpeg",
         "top":"debugging challenge",
         "Heading":"BUG IT",
         "Date":"16/02/2026",
         "Details":"An online debugging showdown where participants raced to find and fix complex code errors. The event challenged students' logical thinking and code analysis skills, rewarding those with the sharpest eyes and the fastest solutions."  
     },
     {   
-        "img":"../PrevEvents/gitflow.jpeg",
+        "img":"PrevEvents/gitflow.jpeg",
         "top":"learning series",
         "Heading":"Gitflow3.0",
         "Date":"21/02/2026",
         "Details":"session designed to  master the power of Git and GitHub. This hands-on session covered  basic Git commands for version control, collaboration, and project management, led by Ms Merin Rose Tom, Senior Software Engineer at Oracle."  
     },
         {   
-        "img":"../PrevEvents/pythonProgramming.jpeg",
+        "img":"PrevEvents/pythonProgramming.jpeg",
         "top":"learning series",
         "Heading":"Algorithms With Python",
         "Date":"18/12/2025",
         "Details":"This introductory series was successfully conducted to provide students with a strong foundation in Python and algorithmic logic."  
 },
     {   
-        "img":"../PrevEvents/triviaWinner.jpeg",
+        "img":"PrevEvents/triviaWinner.jpeg",
         "top":"quiz",
         "Heading":"Trivia Night",
         "Date":"15/10/25 & 16/10/25",
         "Details":"a competitive trivia challenge exploring the principles, history, and impact of the FOSS movement. After a spirited competition, we are proud to announce our winner :Bharat Raj (S3 EC)"  
     },
     {   
-        "img":"../PrevEvents/TriviaNight.jpeg",
+        "img":"PrevEvents/TriviaNight.jpeg",
         "top":"quiz",
         "Heading":"Trivia Night",
         "Date":"15/10/25 & 16/10/25",
