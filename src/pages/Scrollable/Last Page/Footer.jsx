@@ -18,9 +18,9 @@ const Footer = () => {
                 open-source contributions.{" "}
               </p>
               <div className="text-white flex flex-row gap-2 ">
-                <a target='_blank' href="https://www.linkedin.com/in/foss-cell-gecb-a767a8211"><img className='invert size-4' src="../icons/linkedin.svg" alt="" /></a>
-                <a href=""><img className='invert size-4' src="../icons/github.svg" alt="" /></a>
-                <a target='_blank' href="https://www.instagram.com/fosscellgecb?igsh=NGN3cmJ3ODUyMTM3"><img className='invert size-4' src="../icons/instagram.svg" alt="" /></a>
+                <a target='_blank' href="https://www.linkedin.com/in/foss-cell-gecb-a767a8211"><img className='invert size-4' src="icons/linkedin.svg" alt="" /></a>
+                <a href="https://github.com/ICFOSS-GECBH"><img className='invert size-4' src="icons/github.svg" alt="" /></a>
+                <a target='_blank' href="https://www.instagram.com/fosscellgecb?igsh=NGN3cmJ3ODUyMTM3"><img className='invert size-4' src="icons/instagram.svg" alt="" /></a>
               </div>
             </div>
             <div className="flex flex-col gap-2 relative">
@@ -55,9 +55,9 @@ const Footer = () => {
                 Kerala 695035
               </p>
 
-              <p className="lg:text-[10px] text-[7px] text-white font-light">
+              {/* <p className="lg:text-[10px] text-[7px] text-white font-light">
                 Phone: +91 00000 00000
-              </p>
+              </p> */}
 
               <p className="lg:text-[10px] text-[7px] text-white font-light">
                 Email: fosscellgecbh@gmail.com
