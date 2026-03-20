@@ -30,7 +30,7 @@ const Scrollable = () => {
           id="about"
           className="relative w-screen min-h-screen"
           style={{
-            backgroundImage: "url('${import.meta.env.BASE_URL}Background.png')",
+            backgroundImage: `url('${import.meta.env.BASE_URL}Background.png')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -43,7 +43,7 @@ const Scrollable = () => {
           id="events"
           className="relative w-screen min-h-screen pb-24"
           style={{
-            backgroundImage: "url('${import.meta.env.BASE_URL}Background.png')",
+            backgroundImage: `url('${import.meta.env.BASE_URL}Background.png')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -56,7 +56,7 @@ const Scrollable = () => {
           id="projects"
           className="relative w-screen h-auto min-h-0 pb-12"
           style={{
-            backgroundImage: "url('${import.meta.env.BASE_URL}Background.png')",
+            backgroundImage: `url('${import.meta.env.BASE_URL}Background.png')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -69,7 +69,7 @@ const Scrollable = () => {
           id="team"
           className="relative w-screen min-h-screen"
           style={{
-            backgroundImage: "url('${import.meta.env.BASE_URL}Background.png')",
+            backgroundImage: `url('${import.meta.env.BASE_URL}Background.png')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -81,7 +81,7 @@ const Scrollable = () => {
         <section
           className="relative w-screen min-h-fit"
           style={{
-            backgroundImage: "url('${import.meta.env.BASE_URL}Background.png')",
+            backgroundImage: `url('${import.meta.env.BASE_URL}Background.png')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
