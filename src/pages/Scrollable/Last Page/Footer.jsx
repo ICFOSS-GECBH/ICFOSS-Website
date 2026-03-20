@@ -25,15 +25,11 @@ const Footer = () => {
             </div>
             <div className="flex flex-col gap-2 relative">
               <h1 className="text-white text-sm font-medium"> Quick Links</h1>
-              <Link className="lg:text-[10px] text-[7px] text-white font-light"> About</Link>
-              <Link className="lg:text-[10px] text-[7px] text-white font-light">
-                Projects
-              </Link>
-              <Link className="lg:text-[10px] text-[7px] text-white font-light"> Events</Link>
-              <Link className="lg:text-[10px] text-[7px] text-white font-light"> Join</Link>
-              <Link className="lg:text-[10px] text-[7px] text-white font-light">
-                Contact
-              </Link>
+              <Link to="#about" className="lg:text-[10px] text-[7px] text-white font-light"> About </Link>
+              <Link to="#projects" className="lg:text-[10px] text-[7px] text-white font-light"> Projects </Link>
+              <Link to="#events" className="lg:text-[10px] text-[7px] text-white font-light"> Events </Link>
+              <Link to="#join" className="lg:text-[10px] text-[7px] text-white font-light"> Join </Link>
+              <Link to="#contact" className="lg:text-[10px] text-[7px] text-white font-light"> Contact </Link>
             </div>
             {/* <div className="flex flex-col gap-2">
               <h1 className="text-white text-sm font-medium"> Resources</h1>
