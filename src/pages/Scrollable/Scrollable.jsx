@@ -17,10 +17,7 @@ const Scrollable = () => {
         {/* HOME */}
         <section
           id="home"
-          className="relative w-screen min-h-screen"
-          style={{
-            background: "linear-gradient(to bottom, #1e3a5f, #0f2847)",
-          }}
+          className="relative w-screen min-h-screen star-bg"
         >
           <SecondPage />
         </section>
