@@ -2,6 +2,14 @@ import { Github, Instagram, Linkedin, Twitter } from "lucide-react";
 import React from "react";
 import { Link } from "react-router-dom";
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      
+    }
+  }
+
 const Footer = () => {
     const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -33,7 +41,7 @@ const Footer = () => {
                   alt=""
                 />
               </a>
-              <a href="">
+              <a href="https://github.com/ICFOSS-GECBH">
                 <img
                   className="invert size-4"
                   src="../icons/github.svg"
@@ -89,11 +97,15 @@ const Footer = () => {
               Team
             </span>
 
-            <span className="lg:text-[10px] text-[7px] text-white font-light cursor-pointer">
+            <span 
+              onClick={() => scrollToSection("join")}
+              className="lg:text-[10px] text-[7px] text-white font-light cursor-pointer">
               Join
             </span>
 
-            <span className="lg:text-[10px] text-[7px] text-white font-light cursor-pointer">
+            <span 
+              onClick={() => scrollToSection("contact")}
+              className="lg:text-[10px] text-[7px] text-white font-light cursor-pointer">
               Contact
             </span>
           </div>

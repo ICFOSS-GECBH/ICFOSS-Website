@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 import './styles/starBg.css'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/ICFOSS-Website">
    <App />
   </BrowserRouter>
   

@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import Python from "../../../components/Python";
-import Linux from "../../../components/linux";
+import Linux from "../../../components/Linux";
 import Blender from "../../../components/Blender";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
