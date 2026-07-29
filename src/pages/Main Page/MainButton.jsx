@@ -37,7 +37,7 @@ const MainButton = ({tlRef}) => {
             <button 
                 ref={buttonRef}
                 onClick={handleFadeOutAndNavigate}
-                className='bg-blue-900 px-7 py-2 rounded-3xl lg:text-lg font-semibold lg:my-9 active:scale-95 text-[10px] my-3'
+                className=' bg-blue-900 px-7 py-2 rounded-3xl lg:text-lg font-semibold lg:my-9 active:scale-95 text-[10px] my-3'
             >
                 Join Us
             </button>

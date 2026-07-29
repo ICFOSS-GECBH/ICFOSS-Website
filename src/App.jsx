@@ -6,15 +6,13 @@ import { Route, Routes } from 'react-router-dom'
 import SecondPage from './pages/Scrollable/Second Page/SecondPage'
 import Scrollable from './pages/Scrollable/Scrollable'
 import useLenis from "./hooks/useLenis";
+import './styles/starBg.css'
 
 const App = () => {
   useLenis();
   return (
     <div >
-      <div className=' h-screen '
-      style={{
-                  background: 'linear-gradient(to bottom, #1e3a5f, #0f2847)', // EDIT: Card gradient
-                }}>
+      <div className='star-bg h-screen'>
         <Routes>
         <Route path='/' element={<MainPage/>}/>
         <Route path='/main' element={<Scrollable/>} />
