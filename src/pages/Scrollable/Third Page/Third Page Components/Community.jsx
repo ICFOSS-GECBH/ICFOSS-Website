@@ -11,7 +11,7 @@ const Community = () => {
             <div className="relative top-5 w-5 lg:w-8">
               <img 
               className='lg:w-full'
-              src="/users.svg" alt="" />
+              src={`${import.meta.env.BASE_URL}users.svg`} alt="" />
             </div>
             <div className='p-4 text-center'>
               <h3 className='my-2 font-bold lg:text-[20px]  text-[10px] '>Community Driven Learning</h3>
