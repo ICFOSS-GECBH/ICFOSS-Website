@@ -37,14 +37,14 @@ const Footer = () => {
               >
                 <img
                   className="invert size-4"
-                  src="../icons/linkedin.svg"
+                  src={`${import.meta.env.BASE_URL}icons/linkedin.svg`}
                   alt=""
                 />
               </a>
               <a href="https://github.com/ICFOSS-GECBH">
                 <img
                   className="invert size-4"
-                  src="../icons/github.svg"
+                  src={`${import.meta.env.BASE_URL}icons/github.svg`}
                   alt=""
                 />
               </a>
@@ -54,7 +54,7 @@ const Footer = () => {
               >
                 <img
                   className="invert size-4"
-                  src="../icons/instagram.svg"
+                  src={`${import.meta.env.BASE_URL}icons/instagram.svg`}
                   alt=""
                 />
               </a>

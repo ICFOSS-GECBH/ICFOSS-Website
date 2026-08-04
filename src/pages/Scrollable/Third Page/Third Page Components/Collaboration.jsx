@@ -12,7 +12,7 @@ const Collaboration = () => {
             <div className="relative top-5 w-5 lg:w-8 lg:block">
               <img 
               className='lg:w-full'
-              src="/globe.svg" alt="" />
+              src={`${import.meta.env.BASE_URL}globe.svg`} alt="" />
             </div>
             <div className='p-4 text-center'>
               <h3 className='my-2 font-bold lg:text-[20px] text-sm text-[10px] '>Global & Industry Engagement</h3>

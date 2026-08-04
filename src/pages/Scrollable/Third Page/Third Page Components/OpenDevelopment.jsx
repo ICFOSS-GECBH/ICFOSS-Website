@@ -8,7 +8,7 @@ const OpenDevelopment = () => {
             <div className="relative top-5 w-5 lg:w-8">
               <img 
               className='lg:w-full'
-              src="/code.svg" alt="" />
+              src={`${import.meta.env.BASE_URL}code.svg`} alt="" />
             </div>
             <div className='p-4 text-center'>
               <h3 className='my-2 lg:font-bold lg:text-[20px] text-sm text-[10px] font-extrabold '>Open Knowledge & Collaboration</h3>
